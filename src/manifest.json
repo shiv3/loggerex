@@ -1,0 +1,29 @@
+{
+  // Require!
+  "manifest_version": 2,
+  "icons" : {
+    "16": "icon/unko16.png"
+    ,"48": "icon/images48.png"
+    ,"128": "icon/images128.png"
+  },
+  "name": "INOKI",
+  "version": "21.0",
+  "description": "ＢＯＮＢＡＩＥ",
+  "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+   "unlimitedStorage",
+   "storage"
+    ],
+  "content_scripts": [
+    {
+       "matches" : ["*://*/*"],
+      "js": ["jquery.js","script.js"]
+    }
+  ],
+  "page_action": {
+    "default_title": "印刷用ページ出す"
+  }
+
+}
