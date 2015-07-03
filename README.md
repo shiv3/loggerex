@@ -9,3 +9,4 @@ google extensionのloggerです。
 - chrome storageを使ってます。
 - キーロガーはあえて実装していません。（重い
 - [ここ](https://github.com/shiv3/loggerex)でJSONが出力されます。
+- ちゃんとしたやつは[こっち](https://github.com/Xeroday/ChromeLogger)で
