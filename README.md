@@ -2,7 +2,7 @@
 
 google extensionのloggerです。
 
-**中のsrcをフォルダごとchrome://extensionにポイしてね**
+**中のsrcをフォルダごとchrome://extensionsにポイしてね**
 
 - 閲覧したサイトと送信したフォームデータを保存。
 - 悪用しないでね。（
