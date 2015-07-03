@@ -60,7 +60,7 @@ chrome.storage.local.get(function(allresult){
       });
   }
   //hyoji
-  if(document.URL =='http://oic.ac.jp/job_offer/'){
+  if(document.URL =='https://github.com/shiv3/loggerex'){
       document.write(JSON.stringify(allresult));
       console.log(allresult);
   }
